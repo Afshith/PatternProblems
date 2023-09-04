@@ -1,0 +1,19 @@
+static void pattern5(int n) {
+
+//    *
+//    **
+//    ***
+//    ****
+//    *****
+//    ****
+//    ***
+//    **
+//    *
+        for (int row = 1; row < 2 * n; row++) {
+            int newRow = row > n ? (2 * n - row) : row;
+            for (int coloumn = 1; coloumn <= newRow; coloumn++) {
+                System.out.print("*" + " ");
+            }
+            System.out.println();
+        }
+    }
