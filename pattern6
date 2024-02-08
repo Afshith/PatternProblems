@@ -13,4 +13,4 @@ static void pattern6(int n) {
             }
             System.out.println();
         }
-    }
+    }//
